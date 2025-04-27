@@ -1,4 +1,4 @@
-class PrintStuff {
+class Prac4 {
     public void display(){
         int n=1;
         while (n<=100)
@@ -17,7 +17,7 @@ class PrintStuff {
     }
 
     public static void main(String[] args) {
-        PrintStuff ps = new PrintStuff();
+        Prac4 ps = new Prac4();
         System.err.println("Printing 1-100:");
         ps.display();
         System.err.println("\n");
