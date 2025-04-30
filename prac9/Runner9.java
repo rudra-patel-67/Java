@@ -1,4 +1,4 @@
-public class Runner {
+public class Runner9 {
     public static void main(String[] args) {
         A aObj = new A();
         B bObj = new B();

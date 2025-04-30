@@ -1,4 +1,4 @@
-public class Runner {
+public class Runner8 {
     public static void main(String[] args) {
         GoldUser gdusr = new GoldUser();
         SilverUser slusr = new SilverUser();
