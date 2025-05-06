@@ -1,10 +1,8 @@
-class Audi extends Car implements SportCar {
-    @Override
+class Audi implements SportCar {
     public void start() {
         System.out.println("Audi is starting with a keyless push-button system.");
     }
 
-    @Override
     public void stop() {
         System.out.println("Audi is stopping using advanced ABS system.");
     }
