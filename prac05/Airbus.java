@@ -1,5 +1,5 @@
 class Airbus extends Plane{
     Airbus(){
-        System.out.println("Airbus");
+        System.out.println("This is Airbus");
     }    
 }
