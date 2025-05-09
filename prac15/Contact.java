@@ -10,7 +10,7 @@ public class Contact {
         this.email = email;
         this.phone = phone;
     }
-
+    
     public int getId() {
         return id;
     }
