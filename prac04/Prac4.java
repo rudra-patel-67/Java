@@ -1,8 +1,11 @@
 class Prac4 {
     public void display(){
         int n=1;
-        while (n<=100)
+        while (n<=100){
+            if(n%10==0)
+                System.out.println();
             System.out.print(n++ + "\t");
+        }
     }    
 
     public void fibonacci(){

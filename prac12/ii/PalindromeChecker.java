@@ -14,7 +14,7 @@ public class PalindromeChecker {
     }   
     public static void checkPalindrome(String str) throws StringNotPalindrome{
         String reverse = new StringBuilder(str).reverse().toString();
-        System.out.println(reverse);
+        // System.out.println(reverse);
         if(!reverse.equals(str)){
             throw new StringNotPalindrome("Input string is not Palindrome");
         }

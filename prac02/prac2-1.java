@@ -8,8 +8,8 @@ class prac2_1{
             else{
                 System.out.print(i*i*i+"\t");
             }
-            // if(i%10==0)  // JUST FOR FORMATTING
-            //     System.out.println("\n");
+            if(i%10==0)  // JUST FOR FORMATTING
+                System.out.println("\n");
         }
     }
 }
